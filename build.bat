@@ -1,0 +1,1 @@
+PyInstaller --exclude-module PySide2 --exclude-module django --exclude-module hook --exclude-module tk --exclude-module pyOpenSSL --exclude-module tkinter --onefile --icon=app.ico extractBLF.py 
